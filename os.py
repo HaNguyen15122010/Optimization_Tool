@@ -3,7 +3,6 @@ import shutil
 import subprocess
 import getpass  
 
-print("Enter to run ... ")
 def clean_directory(folder):
     """
     This function recursively walks through all files and directories in `folder`,
