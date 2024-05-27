@@ -43,20 +43,19 @@ def defragment_drive(drive):
 def main():
     username = getpass.getuser()  
     folders_to_clean = [
-    "C:\\Windows\\Temp",
-    f"C:\\Users\\{username}\\AppData\\Local\\Temp",
-    f"C:\\Users\\{username}\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files",
-    "C:\\Windows\\SoftwareDistribution\\Download",
-    "C:\\Windows\\Prefetch",
-    "C:\\Windows\\Logs",
-    "C:\\Windows\\Installer",
-    "C:\\Windows\\System32\\LogFiles",
-    "C:\\Windows\\WinSxS\\Temp",
-    "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\Temporary ASP.NET Files",
-    f"C:\\Users\\{username}\\Downloads"  
-]
-
+        "C:\\Windows\\Temp",
+        f"C:\\Users\\{username}\\AppData\\Local\\Temp",
+        f"C:\\Users\\{username}\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files",
+        "C:\\Windows\\SoftwareDistribution\\Download",
+        "C:\\Windows\\Prefetch",
+        "C:\\Windows\\Logs",
+        "C:\\Windows\\Installer",
+        "C:\\Windows\\System32\\LogFiles",
+        "C:\\Windows\\WinSxS\\Temp",
+        "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\Temporary ASP.NET Files",
+        f"C:\\Users\\{username}\\Downloads"  
     ]
+
 
     drives_to_defrag = [
         "C:",
