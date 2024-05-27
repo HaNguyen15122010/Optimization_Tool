@@ -53,7 +53,7 @@ def main():
     "C:\\Windows\\System32\\LogFiles",
     "C:\\Windows\\WinSxS\\Temp",
     "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\Temporary ASP.NET Files",
-    f"C:\\Users\\{username}\\Downloads"  # Thêm thư mục Download vào đây
+    f"C:\\Users\\{username}\\Downloads"  
 ]
 
     ]
