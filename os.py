@@ -54,7 +54,7 @@ def main():
         "C:\\Windows\\System32\\LogFiles"
         "C:\\Windows\\WinSxS\\Temp"
         "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\Temporary ASP.NET Files"
-        f"C:\\Users\\username\\Downloads"
+        f"C:\\Users\\{username}\\Downloads"
     ]
 
     drives_to_defrag = [
